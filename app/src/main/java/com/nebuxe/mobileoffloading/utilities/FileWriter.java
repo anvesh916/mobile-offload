@@ -16,7 +16,7 @@ public class FileWriter {
             java.io.FileWriter fileWriter = new java.io.FileWriter(file, append);
             fileWriter.write(text);
             fileWriter.close();
-        } catch (IOException e) {l
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
